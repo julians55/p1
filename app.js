@@ -15,7 +15,7 @@ const port = process.env.PORT || 8081;
 app.get('/', (req, res) => {
     
     serialNumber(function (err, value) {
-        res.send(value);
+        res.send("asdf"+value);
     });
 })
 
